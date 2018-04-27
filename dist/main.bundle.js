@@ -4752,7 +4752,7 @@ __webpack_require__("./node_modules/rxjs/_esm5/add/operator/map.js");
 var BaseService = /** @class */ (function () {
     function BaseService(http) {
         this.http = http;
-        this.host = 'http://localhost:3000';
+        this.host = 'https://fiberfox-backend-v2.herokuapp.com';
         this.hostAPI = this.host + '/api';
     }
     BaseService.prototype.get = function (url, options) {
